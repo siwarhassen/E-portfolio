@@ -68,7 +68,7 @@ function History() {
                           <ul>
                            <li>Practice compositing techniques to achieve stunning video effects.</li>
                          </ul>
-                          <a data-fancybox="diplome" href="files/esprit.png" className="art-link art-color-link art-w-chevron">Certificate</a>
+                          {/* <a data-fancybox="diplome" href="files/esprit.png" className="art-link art-color-link art-w-chevron">Certificate</a> */}
                         </div>
 
                       </div>

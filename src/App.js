@@ -47,6 +47,7 @@ function App() {
           <Route exact path="/projects" component={Projects}/>
           <Route exact path="/history" component={History}/>
         <Route path="/detailproject/:projectid" exact render={(props) => <DetailProject {...props} />}></Route>
+        <Route  exact path="*" component={Content}/>
         </Switch>
         <MenuBar />
         {/* <!-- content --> */}
