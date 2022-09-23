@@ -44,7 +44,6 @@ function MenuBar() {
               {/* <!-- menu item --> */}
               <li className="menu-item"><Link to="/interests">Interests</Link></li>
               {/* <!-- menu item --> */}
-//               <li className="menu-item"><Link to="/contact">Contact</Link></li>
             </ul>
             {/* <!-- menu list end --> */}
           </nav>
