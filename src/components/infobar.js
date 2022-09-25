@@ -1,6 +1,7 @@
 
 
 function InfoBar() {
+  const currentURL = window.location.pathname ;
   return (
     <div className="art-info-bar">
 
@@ -10,7 +11,7 @@ function InfoBar() {
       {/* <!-- info bar header --> */}
       <div className="art-info-bar-header">
         {/* <!-- info bar button --> */}
-        <a className="art-info-bar-btn" href="gt">
+        <a className="art-info-bar-btn" href={`${currentURL}#`}>
           {/* <!-- icon --> */}
           <i className="fas fa-ellipsis-v"></i>
         </a>

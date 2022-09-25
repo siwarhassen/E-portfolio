@@ -3,6 +3,7 @@
 import { Link } from "react-router-dom";
 
 function MenuBar() {
+  const currentURL = window.location.pathname ;
     return (
       <div className="art-menu-bar">
 
@@ -12,7 +13,7 @@ function MenuBar() {
         {/* <!-- menu bar header --> */}
         <div className="art-menu-bar-header">
           {/* <!-- menu bar button --> */}
-          <a className="art-menu-bar-btn" href=".#">
+          <a className="art-menu-bar-btn" href={`${currentURL}#`}>
             {/* <!-- icon --> */}
             <span></span>
           </a>
@@ -52,7 +53,7 @@ function MenuBar() {
           {/* <!-- language change --> */}
           <ul className="art-language-change">
             {/* <!-- language item --> */}
-            <li><a href="#.">FR</a></li>
+            {/* <li><a href="#.">FR</a></li> */}
             {/* <!-- language item --> */}
             <li className="art-active-lang"><a href="#.">EN</a></li>
           </ul>
