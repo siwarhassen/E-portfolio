@@ -36,6 +36,7 @@ function Certification() {
                       <a href="a#" data-filter="*" className="art-link art-current">All Categories</a>
                       {/*    <!-- filter link -->*/}
                       <a href="a#" data-filter=".internship" className="art-link">Internships</a>
+                      <a href="a#" data-filter=".training" className="art-link">Training</a>
                       {/*    <!-- filter link -->*/}
                       <a href="a#" data-filter=".coursera" className="art-link">Coursera</a>
                     </div>
@@ -45,6 +46,27 @@ function Certification() {
                   {/* <!-- col end -->*/}
 
                   <div className="art-grid art-grid-3-col art-gallery">
+
+                                  {/*       <!-- grid item -->*/}
+                                  <div className="art-grid-item training">
+                    {/*         <!-- grid item frame -->*/}
+                      <a data-fancybox="gallery" href="img/certification/masterclass.pdf" className="art-a art-portfolio-item-frame art-square">
+                       {/*         <!-- img -->*/}
+                        <img src="img/certification/masterclass.png" alt="item"/>
+                         {/*   <!-- zoom icon -->*/}
+                        <span className="art-item-hover"><i className="fas fa-expand"></i></span>
+                      </a>
+                     {/*    <!-- grid item frame end -->*/}
+                      {/*   <!-- description -->*/}
+                      <div className="art-item-description">
+                         {/*   <!-- title -->*/}
+                        <h5 className="mb-15">Video Editing</h5>
+                        {/* <div className="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div> */}
+                      </div>
+                    {/*     <!-- description end -->*/}
+
+                    </div>
+            {/*        <!-- grid item end -->*/}
 
               {/*       <!-- grid item -->*/}
                     <div className="art-grid-item internship">
